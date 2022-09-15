@@ -22,7 +22,7 @@ pod 'MD_BLETool'
 
 ## Author
 
-lvxiang, lvxiang@medoht.com
+lvxiang, lvxiang0208@163.com
 
 ## License
 
