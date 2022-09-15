@@ -1,0 +1,6 @@
+framework module MD_BLETool {
+  umbrella header "MD_BLETool-umbrella.h"
+
+  export *
+  module * { export * }
+}

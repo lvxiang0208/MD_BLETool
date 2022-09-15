@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0204F764EBA28B3DEC39BB0B67EBF564 /* MD_DataSmooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965493A5CFB1186B9BE9E11D0F5FAD04 /* MD_DataSmooth.swift */; };
+		0CD0C794187C99E78DDE7E5934C92E53 /* MD_DispatcherCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7E22AF5EA11D6DB28D3401192B69E /* MD_DispatcherCenter.swift */; };
+		0F2B6F02A4F1C3D0B955FBB87792BE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1CAC39F0CC46A5B01978821E54A68B5B /* MD_HexFileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007AD17B8572364E8CE28B083BA43ED /* MD_HexFileModel.swift */; };
+		1F7433CB189CCEE201115114F3FE8CD6 /* Pods-MD_BLETool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3478E646D1718B4960AD8E2F929BA381 /* Pods-MD_BLETool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2212E9DD718F88341E946B13E0C757C0 /* MD_LTNew2G_DataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44617354F39759C0D928A8F740A254 /* MD_LTNew2G_DataHandle.swift */; };
+		245CDB6DC912F678A00B670832BF942D /* MD_LT2G_CommandTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AEE0CAC1DFB28E4ADBE896A618725 /* MD_LT2G_CommandTool.swift */; };
+		349368108F82807B5E0CD97FABD12060 /* MD_LT2G_DataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526570C9CD87EB86CBE33FDC96C60B5E /* MD_LT2G_DataHandle.swift */; };
+		433840839146F4CD1CB6FA2F00856930 /* MD_LT1G_DataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47092041B5FF26545D059A5CBC9C7AE9 /* MD_LT1G_DataHandle.swift */; };
+		513B3D81283FEE76446FBA028707AC86 /* MD_LT3G_DataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2A1CBBC26C12F5389FF21D88907E0 /* MD_LT3G_DataHandle.swift */; };
+		600A4DDBE7DBA9E1132A297B6C781707 /* MD_BLEModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF7A3288A8279CDA6E8498952945F74 /* MD_BLEModel.swift */; };
+		6CCA707797FBED59B2BAEA124125D00E /* MD_Wireless_CommandTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467420AA7DF03D45EF8C475A0AF5516 /* MD_Wireless_CommandTool.swift */; };
+		72A243AB912A62CC68800F8EC798A19B /* MD_DispatcherCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A743D1B4237346988A9BBE3606ADC /* MD_DispatcherCenterDelegate.swift */; };
+		909C12A627EAB781646A6960812E4445 /* MD_BLETool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA61349A45727E17798702E7D64229F4 /* MD_BLETool-dummy.m */; };
+		952CA43975E9DE87239A18DEC074D8D7 /* MD_DFUHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1CBDEC87E1FCCA1203E9613F85C20 /* MD_DFUHelper.swift */; };
+		98DBAE0E34F5EBC6C1AEDE448C227A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A6DE918266C1A45E36DAF39F3A289D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D03FAA685E42E6853498B67F8409FC2 /* MD_Wireless_DataHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF2E7C2D92E2E9A872924DF454C5FD9 /* MD_Wireless_DataHandle.swift */; };
+		9DBD73CB981A66FEB7B4089D095EBF8D /* MD_BLETool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4498AC3BBAA68567823AEEE7FA0FD55B /* MD_BLETool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E653E4D94CD6FBE7821FB114364D04 /* MD_BLEDeviceDealTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FF9CC90D95AD9B1D3EFB0D1E1ED8DC /* MD_BLEDeviceDealTool.swift */; };
+		C826DF8E9F3EFC97E2441F7E9E6DF1FA /* Pods-MD_BLETool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0D03AF7B2977EC8791A1C798FF431C /* Pods-MD_BLETool_Tests-dummy.m */; };
+		C8EEAA28F362448BB89A6A88A4C856C7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 527D3584F569BEDD71519F64CB335330 /* README.md */; };
+		CD52730869C125E79BE8CEBFB8A739C2 /* MD_VerfifyTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734DD7697049B4DC2A3980105025C4CB /* MD_VerfifyTool.swift */; };
+		D34AD437B64A7EE1E496CF551A87F40E /* MD_LT3G_CommandTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86BFF462B1C4640CFF3131DDF06DE6 /* MD_LT3G_CommandTool.swift */; };
+		D92F1A58806830E81CDA85425C4E172B /* MD_BLEHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B840A5C33EBF5DC3E084FBC31BF72845 /* MD_BLEHeartBeat.swift */; };
+		DA41C3EA77E9B8A2CFE38C13D4EBD209 /* MD_LT1G_CommandTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F418390F26EE526B689D078CB4DD1A /* MD_LT1G_CommandTool.swift */; };
+		DCC68B08A8D4C24F2DE5DC46250F5C05 /* MD_BLEConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819371ADF0C641ECECFF97B4121625B /* MD_BLEConnectManager.swift */; };
+		E93131D4331924DBF8CAB8E9D13D41A3 /* Pods-MD_BLETool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C72C3E5DCFD341882DF24E790398896 /* Pods-MD_BLETool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D7FCA4084C6549B868DEA9ED9F0766 /* Pods-MD_BLETool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7829B295370FA5D823348B82D81457A /* Pods-MD_BLETool_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78745D8B49C3942D4E33ECD3CB367E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D07A82C426B27028DB7D4558A104895;
+			remoteInfo = "Pods-MD_BLETool_Example";
+		};
+		E9B4D545A8008F3494F0946FBDDA0938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E594B6FE9A4F16F5C155EA401FBECD89;
+			remoteInfo = MD_BLETool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B7369333FFE6663225CE4A7D83E229 /* MD_BLEConnectManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_BLEConnectManager.swift; sourceTree = "<group>"; };
+		0DF7A3288A8279CDA6E8498952945F74 /* MD_BLEModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_BLEModel.swift; sourceTree = "<group>"; };
+		0E44617354F39759C0D928A8F740A254 /* MD_LTNew2G_DataHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LTNew2G_DataHandle.swift; sourceTree = "<group>"; };
+		12DCD404229A2C379B558801412850F0 /* Pods-MD_BLETool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MD_BLETool_Example"; path = Pods_MD_BLETool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D456F768E5096572743F45344811DF /* Pods-MD_BLETool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD_BLETool_Tests-Info.plist"; sourceTree = "<group>"; };
+		1819371ADF0C641ECECFF97B4121625B /* MD_BLEConnectManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_BLEConnectManager.swift; sourceTree = "<group>"; };
+		2687113F9477D040C626293588A26060 /* Pods-MD_BLETool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD_BLETool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C31C82F3999F58E27D1749709B683A7 /* MD_BLETool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MD_BLETool.modulemap; sourceTree = "<group>"; };
+		2DFFEE8E9D1E5ABEBFBB2002B2F9257F /* Pods-MD_BLETool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MD_BLETool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		300FDEE41668DB69D76D409DC56CC524 /* Pods-MD_BLETool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MD_BLETool_Tests.modulemap"; sourceTree = "<group>"; };
+		333F26D2E44A771BE2728AE71ED2EB90 /* MD_BLETool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MD_BLETool-prefix.pch"; sourceTree = "<group>"; };
+		3478E646D1718B4960AD8E2F929BA381 /* Pods-MD_BLETool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MD_BLETool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		37F418390F26EE526B689D078CB4DD1A /* MD_LT1G_CommandTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT1G_CommandTool.swift; sourceTree = "<group>"; };
+		3A7CF113B2095C466619F04E6F275987 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3BA7E22AF5EA11D6DB28D3401192B69E /* MD_DispatcherCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_DispatcherCenter.swift; sourceTree = "<group>"; };
+		3CEF08BE38D49F74567B6414D1859514 /* Pods-MD_BLETool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD_BLETool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3DF838C3D8D1DD90B9577E3210C7E71B /* MD_BLETool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MD_BLETool; path = MD_BLETool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A743D1B4237346988A9BBE3606ADC /* MD_DispatcherCenterDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_DispatcherCenterDelegate.swift; sourceTree = "<group>"; };
+		4498AC3BBAA68567823AEEE7FA0FD55B /* MD_BLETool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MD_BLETool-umbrella.h"; sourceTree = "<group>"; };
+		47092041B5FF26545D059A5CBC9C7AE9 /* MD_LT1G_DataHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT1G_DataHandle.swift; sourceTree = "<group>"; };
+		526570C9CD87EB86CBE33FDC96C60B5E /* MD_LT2G_DataHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT2G_DataHandle.swift; sourceTree = "<group>"; };
+		527D3584F569BEDD71519F64CB335330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = MD_BLETool/Classes/README.md; sourceTree = "<group>"; };
+		5EB7A8D9BD1D0D1785BCAF491D9D1AF0 /* Pods-MD_BLETool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD_BLETool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		734DD7697049B4DC2A3980105025C4CB /* MD_VerfifyTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_VerfifyTool.swift; sourceTree = "<group>"; };
+		79F2A1CBBC26C12F5389FF21D88907E0 /* MD_LT3G_DataHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT3G_DataHandle.swift; sourceTree = "<group>"; };
+		7C72C3E5DCFD341882DF24E790398896 /* Pods-MD_BLETool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MD_BLETool_Example-umbrella.h"; sourceTree = "<group>"; };
+		8224BDCB1DB14FA592A34B56F62FC967 /* Pods-MD_BLETool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD_BLETool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8604A8CBEE4DAF5035E1F598522D38CC /* Pods-MD_BLETool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MD_BLETool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		965493A5CFB1186B9BE9E11D0F5FAD04 /* MD_DataSmooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_DataSmooth.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F86BFF462B1C4640CFF3131DDF06DE6 /* MD_LT3G_CommandTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT3G_CommandTool.swift; sourceTree = "<group>"; };
+		A610E9A81889A0CC486C9FB9FE5C5BD6 /* Pods-MD_BLETool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD_BLETool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7829B295370FA5D823348B82D81457A /* Pods-MD_BLETool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MD_BLETool_Example-dummy.m"; sourceTree = "<group>"; };
+		ACDF1B5B0C52A16292888B5B11A3D0B3 /* MD_BLETool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MD_BLETool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE7C939470F67743D1DC1CA285CEFE98 /* MD_BLETool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MD_BLETool.release.xcconfig; sourceTree = "<group>"; };
+		B349614218CE912EEFC3C19436BAFAC7 /* MD_BLETool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MD_BLETool-Info.plist"; sourceTree = "<group>"; };
+		B840A5C33EBF5DC3E084FBC31BF72845 /* MD_BLEHeartBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_BLEHeartBeat.swift; sourceTree = "<group>"; };
+		BA61349A45727E17798702E7D64229F4 /* MD_BLETool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MD_BLETool-dummy.m"; sourceTree = "<group>"; };
+		BE6AEE0CAC1DFB28E4ADBE896A618725 /* MD_LT2G_CommandTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_LT2G_CommandTool.swift; sourceTree = "<group>"; };
+		C467420AA7DF03D45EF8C475A0AF5516 /* MD_Wireless_CommandTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_Wireless_CommandTool.swift; sourceTree = "<group>"; };
+		C8FBEBB54BAEA825AF80DF7F2A3E919C /* MD_BLETool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MD_BLETool.debug.xcconfig; sourceTree = "<group>"; };
+		C9C1CBDEC87E1FCCA1203E9613F85C20 /* MD_DFUHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_DFUHelper.swift; sourceTree = "<group>"; };
+		CB0D03AF7B2977EC8791A1C798FF431C /* Pods-MD_BLETool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MD_BLETool_Tests-dummy.m"; sourceTree = "<group>"; };
+		CCDF9688EC4758C950317CC3AE10C183 /* Pods-MD_BLETool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MD_BLETool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDF2E7C2D92E2E9A872924DF454C5FD9 /* MD_Wireless_DataHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_Wireless_DataHandle.swift; sourceTree = "<group>"; };
+		E41EAB00E19BDB612295428599E031E0 /* Pods-MD_BLETool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MD_BLETool_Example.modulemap"; sourceTree = "<group>"; };
+		E92EB15B43A327CB42FB47D7F3D189E1 /* Pods-MD_BLETool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MD_BLETool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC2D0A4E73916CA9AB11F7AFB82B2F15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F007AD17B8572364E8CE28B083BA43ED /* MD_HexFileModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_HexFileModel.swift; sourceTree = "<group>"; };
+		F5FF9CC90D95AD9B1D3EFB0D1E1ED8DC /* MD_BLEDeviceDealTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD_BLEDeviceDealTool.swift; sourceTree = "<group>"; };
+		FE4A84786B4A5288EAB67F1CBB77E6B1 /* Pods-MD_BLETool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MD_BLETool_Tests"; path = Pods_MD_BLETool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE544302F96C0C28895F9F7C09F01EE8 /* Pods-MD_BLETool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MD_BLETool_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C01D25CFDE7B2653BC1746FEE486B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2B6F02A4F1C3D0B955FBB87792BE9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786FAC2DA7D5A1D442F7676E1B72E90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6DE918266C1A45E36DAF39F3A289D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51EAD0D5761804B8897A4F58265D787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DBAE0E34F5EBC6C1AEDE448C227A96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2578A893728274D1D2ADD60987EE249A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C31C82F3999F58E27D1749709B683A7 /* MD_BLETool.modulemap */,
+				BA61349A45727E17798702E7D64229F4 /* MD_BLETool-dummy.m */,
+				B349614218CE912EEFC3C19436BAFAC7 /* MD_BLETool-Info.plist */,
+				333F26D2E44A771BE2728AE71ED2EB90 /* MD_BLETool-prefix.pch */,
+				4498AC3BBAA68567823AEEE7FA0FD55B /* MD_BLETool-umbrella.h */,
+				C8FBEBB54BAEA825AF80DF7F2A3E919C /* MD_BLETool.debug.xcconfig */,
+				AE7C939470F67743D1DC1CA285CEFE98 /* MD_BLETool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MD_BLETool";
+			sourceTree = "<group>";
+		};
+		28F0F7FDA38245AF7B21FCEC71408A42 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				1819371ADF0C641ECECFF97B4121625B /* MD_BLEConnectManager.swift */,
+			);
+			name = "未命名文件夹";
+			path = "MD_BLETool/Classes/未命名文件夹";
+			sourceTree = "<group>";
+		};
+		3308518CC49D66786CB13A48564FABAB /* Pods-MD_BLETool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				300FDEE41668DB69D76D409DC56CC524 /* Pods-MD_BLETool_Tests.modulemap */,
+				CCDF9688EC4758C950317CC3AE10C183 /* Pods-MD_BLETool_Tests-acknowledgements.markdown */,
+				5EB7A8D9BD1D0D1785BCAF491D9D1AF0 /* Pods-MD_BLETool_Tests-acknowledgements.plist */,
+				CB0D03AF7B2977EC8791A1C798FF431C /* Pods-MD_BLETool_Tests-dummy.m */,
+				15D456F768E5096572743F45344811DF /* Pods-MD_BLETool_Tests-Info.plist */,
+				3478E646D1718B4960AD8E2F929BA381 /* Pods-MD_BLETool_Tests-umbrella.h */,
+				2687113F9477D040C626293588A26060 /* Pods-MD_BLETool_Tests.debug.xcconfig */,
+				3CEF08BE38D49F74567B6414D1859514 /* Pods-MD_BLETool_Tests.release.xcconfig */,
+			);
+			name = "Pods-MD_BLETool_Tests";
+			path = "Target Support Files/Pods-MD_BLETool_Tests";
+			sourceTree = "<group>";
+		};
+		4CB644F676F10D30AB701FD06704CE3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF838C3D8D1DD90B9577E3210C7E71B /* MD_BLETool */,
+				12DCD404229A2C379B558801412850F0 /* Pods-MD_BLETool_Example */,
+				FE4A84786B4A5288EAB67F1CBB77E6B1 /* Pods-MD_BLETool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57B98A407F818B23F468BACF753FDB61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E873316663AF5EB2339A3C7DD5A9E1D /* MD_BLETool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E873316663AF5EB2339A3C7DD5A9E1D /* MD_BLETool */ = {
+			isa = PBXGroup;
+			children = (
+				527D3584F569BEDD71519F64CB335330 /* README.md */,
+				7D76A428C878661F334D0C951472DA0B /* BLECommonTool */,
+				EDF8F091A9EB4C977C7131676B6C146C /* CommandTool */,
+				BE9BEF4D7D6FB0507D1E294E8694F253 /* ConnectTool */,
+				F64198BEC0F402E3832A866832CE793C /* DataTool */,
+				DCDADF883977A7A29407B22A6294CD51 /* DispatcherCenter */,
+				B9F980A4FE7755BF8CD1254F7C355AC6 /* Model */,
+				72C49D8A727CED5B04902CC9E9F325ED /* Pod */,
+				2578A893728274D1D2ADD60987EE249A /* Support Files */,
+				9901AA67D212C6977DDF4070441E2CBA /* UpgradeTool */,
+				28F0F7FDA38245AF7B21FCEC71408A42 /* 未命名文件夹 */,
+			);
+			name = MD_BLETool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72C49D8A727CED5B04902CC9E9F325ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EC2D0A4E73916CA9AB11F7AFB82B2F15 /* LICENSE */,
+				ACDF1B5B0C52A16292888B5B11A3D0B3 /* MD_BLETool.podspec */,
+				3A7CF113B2095C466619F04E6F275987 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D76A428C878661F334D0C951472DA0B /* BLECommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				F5FF9CC90D95AD9B1D3EFB0D1E1ED8DC /* MD_BLEDeviceDealTool.swift */,
+				B840A5C33EBF5DC3E084FBC31BF72845 /* MD_BLEHeartBeat.swift */,
+				965493A5CFB1186B9BE9E11D0F5FAD04 /* MD_DataSmooth.swift */,
+				734DD7697049B4DC2A3980105025C4CB /* MD_VerfifyTool.swift */,
+			);
+			name = BLECommonTool;
+			path = MD_BLETool/Classes/BLECommonTool;
+			sourceTree = "<group>";
+		};
+		9901AA67D212C6977DDF4070441E2CBA /* UpgradeTool */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1CBDEC87E1FCCA1203E9613F85C20 /* MD_DFUHelper.swift */,
+				F007AD17B8572364E8CE28B083BA43ED /* MD_HexFileModel.swift */,
+			);
+			name = UpgradeTool;
+			path = MD_BLETool/Classes/UpgradeTool;
+			sourceTree = "<group>";
+		};
+		B9F980A4FE7755BF8CD1254F7C355AC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DF7A3288A8279CDA6E8498952945F74 /* MD_BLEModel.swift */,
+			);
+			name = Model;
+			path = MD_BLETool/Classes/Model;
+			sourceTree = "<group>";
+		};
+		BE9BEF4D7D6FB0507D1E294E8694F253 /* ConnectTool */ = {
+			isa = PBXGroup;
+			children = (
+				00B7369333FFE6663225CE4A7D83E229 /* MD_BLEConnectManager.swift */,
+			);
+			name = ConnectTool;
+			path = MD_BLETool/Classes/ConnectTool;
+			sourceTree = "<group>";
+		};
+		C1662D3A41C6EC05469D715E919AAFEB /* Pods-MD_BLETool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E41EAB00E19BDB612295428599E031E0 /* Pods-MD_BLETool_Example.modulemap */,
+				E92EB15B43A327CB42FB47D7F3D189E1 /* Pods-MD_BLETool_Example-acknowledgements.markdown */,
+				A610E9A81889A0CC486C9FB9FE5C5BD6 /* Pods-MD_BLETool_Example-acknowledgements.plist */,
+				A7829B295370FA5D823348B82D81457A /* Pods-MD_BLETool_Example-dummy.m */,
+				2DFFEE8E9D1E5ABEBFBB2002B2F9257F /* Pods-MD_BLETool_Example-frameworks.sh */,
+				FE544302F96C0C28895F9F7C09F01EE8 /* Pods-MD_BLETool_Example-Info.plist */,
+				7C72C3E5DCFD341882DF24E790398896 /* Pods-MD_BLETool_Example-umbrella.h */,
+				8224BDCB1DB14FA592A34B56F62FC967 /* Pods-MD_BLETool_Example.debug.xcconfig */,
+				8604A8CBEE4DAF5035E1F598522D38CC /* Pods-MD_BLETool_Example.release.xcconfig */,
+			);
+			name = "Pods-MD_BLETool_Example";
+			path = "Target Support Files/Pods-MD_BLETool_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				57B98A407F818B23F468BACF753FDB61 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4CB644F676F10D30AB701FD06704CE3E /* Products */,
+				DCBC7F5EC64EFD8C126B6EDAC31E7BB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBC7F5EC64EFD8C126B6EDAC31E7BB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1662D3A41C6EC05469D715E919AAFEB /* Pods-MD_BLETool_Example */,
+				3308518CC49D66786CB13A48564FABAB /* Pods-MD_BLETool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCDADF883977A7A29407B22A6294CD51 /* DispatcherCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7E22AF5EA11D6DB28D3401192B69E /* MD_DispatcherCenter.swift */,
+				426A743D1B4237346988A9BBE3606ADC /* MD_DispatcherCenterDelegate.swift */,
+			);
+			name = DispatcherCenter;
+			path = MD_BLETool/Classes/DispatcherCenter;
+			sourceTree = "<group>";
+		};
+		EDF8F091A9EB4C977C7131676B6C146C /* CommandTool */ = {
+			isa = PBXGroup;
+			children = (
+				37F418390F26EE526B689D078CB4DD1A /* MD_LT1G_CommandTool.swift */,
+				BE6AEE0CAC1DFB28E4ADBE896A618725 /* MD_LT2G_CommandTool.swift */,
+				9F86BFF462B1C4640CFF3131DDF06DE6 /* MD_LT3G_CommandTool.swift */,
+				C467420AA7DF03D45EF8C475A0AF5516 /* MD_Wireless_CommandTool.swift */,
+			);
+			name = CommandTool;
+			path = MD_BLETool/Classes/CommandTool;
+			sourceTree = "<group>";
+		};
+		F64198BEC0F402E3832A866832CE793C /* DataTool */ = {
+			isa = PBXGroup;
+			children = (
+				47092041B5FF26545D059A5CBC9C7AE9 /* MD_LT1G_DataHandle.swift */,
+				526570C9CD87EB86CBE33FDC96C60B5E /* MD_LT2G_DataHandle.swift */,
+				79F2A1CBBC26C12F5389FF21D88907E0 /* MD_LT3G_DataHandle.swift */,
+				0E44617354F39759C0D928A8F740A254 /* MD_LTNew2G_DataHandle.swift */,
+				DDF2E7C2D92E2E9A872924DF454C5FD9 /* MD_Wireless_DataHandle.swift */,
+			);
+			name = DataTool;
+			path = MD_BLETool/Classes/DataTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EC25516E06C5620AA594E5C3C26B94C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBD73CB981A66FEB7B4089D095EBF8D /* MD_BLETool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931DBAD2BDB84885B979CF29936098ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7433CB189CCEE201115114F3FE8CD6 /* Pods-MD_BLETool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E904E8F790ED75E431CA141829E251F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93131D4331924DBF8CAB8E9D13D41A3 /* Pods-MD_BLETool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		774775B0C0753EC432E262FDF61ADC87 /* Pods-MD_BLETool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D4B515FDB42FC8CC5930C6F16B8C0A /* Build configuration list for PBXNativeTarget "Pods-MD_BLETool_Tests" */;
+			buildPhases = (
+				931DBAD2BDB84885B979CF29936098ED /* Headers */,
+				7D3F621B3406255EEC3B3FFCB81EA63D /* Sources */,
+				786FAC2DA7D5A1D442F7676E1B72E90A /* Frameworks */,
+				1ECFDFF970A3C6FC3D19FF4D2E03C421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BEDFF7C55DCD2489AB398F91699E91A /* PBXTargetDependency */,
+			);
+			name = "Pods-MD_BLETool_Tests";
+			productName = Pods_MD_BLETool_Tests;
+			productReference = FE4A84786B4A5288EAB67F1CBB77E6B1 /* Pods-MD_BLETool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D07A82C426B27028DB7D4558A104895 /* Pods-MD_BLETool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42C482050B596D4DC3D1302ABF98CF7 /* Build configuration list for PBXNativeTarget "Pods-MD_BLETool_Example" */;
+			buildPhases = (
+				E904E8F790ED75E431CA141829E251F1 /* Headers */,
+				DCF7C276928A64B65895DB022D27DA32 /* Sources */,
+				5C01D25CFDE7B2653BC1746FEE486B08 /* Frameworks */,
+				978CFB8F02F6E413AEE55DFC71D4008E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D0CADBCCCF38715203662B0D91F038 /* PBXTargetDependency */,
+			);
+			name = "Pods-MD_BLETool_Example";
+			productName = Pods_MD_BLETool_Example;
+			productReference = 12DCD404229A2C379B558801412850F0 /* Pods-MD_BLETool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E594B6FE9A4F16F5C155EA401FBECD89 /* MD_BLETool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E297113FA9F45834A0185606CEBFAA45 /* Build configuration list for PBXNativeTarget "MD_BLETool" */;
+			buildPhases = (
+				2EC25516E06C5620AA594E5C3C26B94C /* Headers */,
+				CCAABCC6791395A993841B1E709ECD50 /* Sources */,
+				D51EAD0D5761804B8897A4F58265D787 /* Frameworks */,
+				C2B001FD3B3FF374C26485C666C29DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MD_BLETool;
+			productName = MD_BLETool;
+			productReference = 3DF838C3D8D1DD90B9577E3210C7E71B /* MD_BLETool */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4CB644F676F10D30AB701FD06704CE3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E594B6FE9A4F16F5C155EA401FBECD89 /* MD_BLETool */,
+				9D07A82C426B27028DB7D4558A104895 /* Pods-MD_BLETool_Example */,
+				774775B0C0753EC432E262FDF61ADC87 /* Pods-MD_BLETool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ECFDFF970A3C6FC3D19FF4D2E03C421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CFB8F02F6E413AEE55DFC71D4008E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B001FD3B3FF374C26485C666C29DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D3F621B3406255EEC3B3FFCB81EA63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826DF8E9F3EFC97E2441F7E9E6DF1FA /* Pods-MD_BLETool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAABCC6791395A993841B1E709ECD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC68B08A8D4C24F2DE5DC46250F5C05 /* MD_BLEConnectManager.swift in Sources */,
+				DCC68B08A8D4C24F2DE5DC46250F5C05 /* MD_BLEConnectManager.swift in Sources */,
+				C2E653E4D94CD6FBE7821FB114364D04 /* MD_BLEDeviceDealTool.swift in Sources */,
+				D92F1A58806830E81CDA85425C4E172B /* MD_BLEHeartBeat.swift in Sources */,
+				600A4DDBE7DBA9E1132A297B6C781707 /* MD_BLEModel.swift in Sources */,
+				909C12A627EAB781646A6960812E4445 /* MD_BLETool-dummy.m in Sources */,
+				0204F764EBA28B3DEC39BB0B67EBF564 /* MD_DataSmooth.swift in Sources */,
+				952CA43975E9DE87239A18DEC074D8D7 /* MD_DFUHelper.swift in Sources */,
+				0CD0C794187C99E78DDE7E5934C92E53 /* MD_DispatcherCenter.swift in Sources */,
+				72A243AB912A62CC68800F8EC798A19B /* MD_DispatcherCenterDelegate.swift in Sources */,
+				1CAC39F0CC46A5B01978821E54A68B5B /* MD_HexFileModel.swift in Sources */,
+				DA41C3EA77E9B8A2CFE38C13D4EBD209 /* MD_LT1G_CommandTool.swift in Sources */,
+				433840839146F4CD1CB6FA2F00856930 /* MD_LT1G_DataHandle.swift in Sources */,
+				245CDB6DC912F678A00B670832BF942D /* MD_LT2G_CommandTool.swift in Sources */,
+				349368108F82807B5E0CD97FABD12060 /* MD_LT2G_DataHandle.swift in Sources */,
+				D34AD437B64A7EE1E496CF551A87F40E /* MD_LT3G_CommandTool.swift in Sources */,
+				513B3D81283FEE76446FBA028707AC86 /* MD_LT3G_DataHandle.swift in Sources */,
+				2212E9DD718F88341E946B13E0C757C0 /* MD_LTNew2G_DataHandle.swift in Sources */,
+				CD52730869C125E79BE8CEBFB8A739C2 /* MD_VerfifyTool.swift in Sources */,
+				6CCA707797FBED59B2BAEA124125D00E /* MD_Wireless_CommandTool.swift in Sources */,
+				9D03FAA685E42E6853498B67F8409FC2 /* MD_Wireless_DataHandle.swift in Sources */,
+				C8EEAA28F362448BB89A6A88A4C856C7 /* README.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF7C276928A64B65895DB022D27DA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D7FCA4084C6549B868DEA9ED9F0766 /* Pods-MD_BLETool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BEDFF7C55DCD2489AB398F91699E91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MD_BLETool_Example";
+			target = 9D07A82C426B27028DB7D4558A104895 /* Pods-MD_BLETool_Example */;
+			targetProxy = 78745D8B49C3942D4E33ECD3CB367E21 /* PBXContainerItemProxy */;
+		};
+		52D0CADBCCCF38715203662B0D91F038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MD_BLETool;
+			target = E594B6FE9A4F16F5C155EA401FBECD89 /* MD_BLETool */;
+			targetProxy = E9B4D545A8008F3494F0946FBDDA0938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50D38699B2DEBB94509E742A366F693A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7C939470F67743D1DC1CA285CEFE98 /* MD_BLETool.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MD_BLETool/MD_BLETool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MD_BLETool/MD_BLETool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MD_BLETool/MD_BLETool.modulemap";
+				PRODUCT_MODULE_NAME = MD_BLETool;
+				PRODUCT_NAME = MD_BLETool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61AF7BE9FDA50DF88C7BF8A46F7B315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8604A8CBEE4DAF5035E1F598522D38CC /* Pods-MD_BLETool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MD_BLETool_Example/Pods-MD_BLETool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MD_BLETool_Example/Pods-MD_BLETool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC3E84FB39E23A49EF32DBAB13DC6FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2687113F9477D040C626293588A26060 /* Pods-MD_BLETool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MD_BLETool_Tests/Pods-MD_BLETool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MD_BLETool_Tests/Pods-MD_BLETool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEB96A298C0BAC10A8DB6230F8D145CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEF08BE38D49F74567B6414D1859514 /* Pods-MD_BLETool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MD_BLETool_Tests/Pods-MD_BLETool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MD_BLETool_Tests/Pods-MD_BLETool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F95EDEA97D4961B7BDEBAE3956BBDFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FBEBB54BAEA825AF80DF7F2A3E919C /* MD_BLETool.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MD_BLETool/MD_BLETool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MD_BLETool/MD_BLETool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MD_BLETool/MD_BLETool.modulemap";
+				PRODUCT_MODULE_NAME = MD_BLETool;
+				PRODUCT_NAME = MD_BLETool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE1F4AE3DDB6C570CDA2EC75B9FF21DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8224BDCB1DB14FA592A34B56F62FC967 /* Pods-MD_BLETool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MD_BLETool_Example/Pods-MD_BLETool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MD_BLETool_Example/Pods-MD_BLETool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D4B515FDB42FC8CC5930C6F16B8C0A /* Build configuration list for PBXNativeTarget "Pods-MD_BLETool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3E84FB39E23A49EF32DBAB13DC6FA9 /* Debug */,
+				EEB96A298C0BAC10A8DB6230F8D145CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E297113FA9F45834A0185606CEBFAA45 /* Build configuration list for PBXNativeTarget "MD_BLETool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95EDEA97D4961B7BDEBAE3956BBDFE3 /* Debug */,
+				50D38699B2DEBB94509E742A366F693A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42C482050B596D4DC3D1302ABF98CF7 /* Build configuration list for PBXNativeTarget "Pods-MD_BLETool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1F4AE3DDB6C570CDA2EC75B9FF21DB /* Debug */,
+				61AF7BE9FDA50DF88C7BF8A46F7B315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

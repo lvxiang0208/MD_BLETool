@@ -1,0 +1,22 @@
+{
+  "name": "MD_BLETool",
+  "version": "0.1.0",
+  "summary": "A short description of MD_BLETool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lvxiang0208/MD_BLETool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lvxiang": "lvxiang@medoht.com"
+  },
+  "source": {
+    "git": "https://github.com/lvxiang0208/MD_BLETool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MD_BLETool/Classes/**/*"
+}
