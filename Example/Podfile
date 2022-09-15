@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MD_BLETool_Example' do
+  pod 'MD_BLETool', :path => '../'
+
+  target 'MD_BLETool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
